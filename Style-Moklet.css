@@ -1,0 +1,35 @@
+div.menu{
+			width: 100%;
+			background: red;
+		}
+		
+		div.menu ul{
+			list-style-type: none; /* Menghilangkan bullet pada List */
+			overflow: hidden; /* Menghilangkan scroll bar */
+			padding: 0; /* Jarak antara border dengan konten (jarak dalam) */
+			margin: 0; /* Jarak antara tiga elemen (jarak luar) */
+		}
+		
+		div.menu li{
+			float: right; /* posisi elemen dari kanan */
+		}
+		
+		div.menu li a{
+			text-decoration: none; /* Menghilangkan garis bawah pada Link */
+			color: #fff; /* Warna font pada link */
+			text-align: center; /* Posisi teks rata di tengah */
+			padding: 13px 15px; /* 13 untuk top & bottom, 15 untuk right & left */
+            font-size: 20px;
+            display: block;
+        }
+        
+        div.menu li a: hover{ /* ketika mouse meraba elemen berubah warna */
+            background: #fff;
+            color: red;
+            border: 2px solid red; /* 2px*/
+        }
+         div.menu img{
+                width: 160px;
+                height: auto;
+                margin: 5px;
+         }
